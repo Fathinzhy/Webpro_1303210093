@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi_1303210093</title>
+</head>
+<body>
+    <!-- div tag digunakan untuk membungkus bagian halaman web -->
+    <div>
+        <h1>Profil Pribadi</h1>
+        <!-- Menggunakan tabel untuk mengatur posisi gambar dan video -->
+        <table border="0" style="width: 60%; text-align: center;">
+            <tr>
+                <td>
+                    <h2>Foto Profil</h2>
+                    <img src="Profile_Picture.jpg" alt="Foto Profil" width="200">
+                </td>
+                <td>
+                    <h2>Video Perkenalan</h2>
+                    <video width="400" controls>
+                        <source src="Video_Perkenalan.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h1> Tentang Saya</h1>
+        <p>Halo! Nama Saya Ghazy Fathin Febozsa dengan NIM 1303210093, saya merupakan mahasiswa Telkom University</p>
+    </div>
+
+    <div>
+        <!-- table tag digunakan untuk menampilkan informasi dalam bentuk tabel -->
+        <h2>Keterampilan</h2>
+        <table border="1">
+            <!-- tr tag digunakan untuk mendefinisikan baris tabel -->
+            <tr>
+                <!-- th tag digunakan untuk mendefinisikan header kolom tabel -->
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <!-- td tag digunakan untuk mendefinisikan data pada tabel -->
+                <td>HTML/CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <!-- form tag digunakan untuk membuat form input data pengguna -->
+        <h2>Hubungi Saya</h2>
+        <form action="submit.php" method="POST">
+            <!-- input tag digunakan untuk input teks -->
+            Nama: <input type="text" name="nama" required><br><br>
+            Email: <input type="email" name="email" required><br><br>
+            Pesan: <textarea name="pesan"></textarea><br><br>
+            <!-- button tag digunakan untuk membuat tombol pengiriman form -->
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <!-- a tag digunakan untuk membuat hyperlink  -->
+    <div>
+        <h3>Media Sosial</h3>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a><br>
+        <a href="https://www.github.com" target="_blank">GitHub</a><br>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </div>
+</body>
+</html>
